@@ -58,6 +58,7 @@ nav a {
 .hero-para {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: justify;
 }
 
 #hero-button {
@@ -79,7 +80,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 0;
+    padding: 36px 0;
 }
 
 .info-section img {
@@ -95,7 +96,7 @@ nav a {
 
 .items {
     display: flex;
-    gap: 60px;
+    gap: 80px;
     padding: 15px;
 }
 
@@ -108,5 +109,25 @@ nav a {
 
 .item-text {
     font-size: 18px;
-    
+}
+
+.quote-section {
+    padding: 60px;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+}
+
+#credit {
+    font-size: 24px;
+    font-weight: 800;
 }
