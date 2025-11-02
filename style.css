@@ -74,3 +74,39 @@ nav a {
     max-width: 400px;
     height: auto;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.info-section img {
+    max-width: 150px;
+    height: auto;
+}
+
+#info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    gap: 60px;
+    padding: 15px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.item-text {
+    font-size: 18px;
+    
+}
